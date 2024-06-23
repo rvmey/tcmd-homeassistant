@@ -14,7 +14,7 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello TRIGGERcmd..."
+  token: null
 schema:
-  message: "str?"
+  token: "password?"
 # image: "ghcr.io/rvmey/{arch}-triggercmd"
