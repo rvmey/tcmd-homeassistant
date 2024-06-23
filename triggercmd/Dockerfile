@@ -10,3 +10,6 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
+
+RUN chmod -R +x /etc/services.d/triggercmd 
+RUN chmod +x /usr/bin/my_program
