@@ -18,5 +18,8 @@ bashio::log.info "${token:="Missing"}"
 echo "env in run:"
 env
 
+echo "curl from run:"
+curl google.com
+
 ## Run your program
 /usr/bin/my_program $token

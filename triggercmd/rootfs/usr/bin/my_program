@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 
 echo "All done! token is $token first param is $1"
 echo "env in my_program:"
