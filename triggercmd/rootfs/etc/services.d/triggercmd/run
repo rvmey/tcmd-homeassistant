@@ -16,4 +16,4 @@ token=$(bashio::config 'token')
 bashio::log.info "${token:="Missing"}"
 
 ## Run your program
-exec /usr/bin/my_program
+exec /usr/bin/my_program $token
