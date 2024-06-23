@@ -18,4 +18,5 @@ options:
 schema:
   token: "password?"
 homeassistant_api: true
+hassio_api: true
 # image: "ghcr.io/rvmey/{arch}-triggercmd"
