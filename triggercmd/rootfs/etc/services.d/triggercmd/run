@@ -19,4 +19,4 @@ echo "env in run:"
 env
 
 ## Run your program
-exec /usr/bin/my_program $token
+/usr/bin/my_program $token
