@@ -15,5 +15,8 @@ token=$(bashio::config 'token')
 ## Print the message the user supplied, defaults to "Hello World..."
 bashio::log.info "${token:="Missing"}"
 
+echo "env in run:"
+env
+
 ## Run your program
 exec /usr/bin/my_program $token
