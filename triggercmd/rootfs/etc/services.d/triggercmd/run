@@ -21,5 +21,7 @@ env
 echo "curl from run:"
 curl google.com
 
+curl -X GET -H "Authorization: Bearer ${SUPERVISOR_TOKEN}" -H "Content-Type: application/json" http://supervisor/core/api/config
+
 ## Run your program
 /usr/bin/my_program $token
